@@ -1,0 +1,13 @@
+.glow-spacious {
+	text-shadow: var(--shadow);
+	letter-spacing: 0.3em;
+}
+
+.glow--shrink {
+	transition: letter-spacing 0.4s, text-shadow 0.4s;
+}
+
+.glow--shrink:hover {
+	letter-spacing: normal;
+	text-shadow: initial;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Login</title><link rel="icon" href="/maze/favicon.png" data-svelte="svelte-fjyu66">
+
+		
+
+		<link rel="modulepreload" href="/maze/_app/start-1276e58f.js">
+		<link rel="modulepreload" href="/maze/_app/chunks/vendor-a2aa9e65.js">
+		<link rel="modulepreload" href="/maze/_app/chunks/paths-28a87002.js">
+		<link rel="modulepreload" href="/maze/_app/pages/__layout.svelte-145e4494.js">
+		<link rel="modulepreload" href="/maze/_app/pages/login.svelte-b1783643.js">
+		<link rel="stylesheet" href="/maze/_app/assets/start-61d1577b.css">
+		<link rel="stylesheet" href="/maze/_app/assets/pages/__layout.svelte-f5401e6e.css">
+		<link rel="stylesheet" href="/maze/_app/assets/pages/login.svelte-1edd9cdb.css">
+
+		<script type="module">
+			import { start } from "/maze/_app/start-1276e58f.js";
+			start({
+				target: document.querySelector("body"),
+				paths: {"base":"/maze","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/maze/_app/pages/__layout.svelte-145e4494.js"),
+						import("/maze/_app/pages/login.svelte-b1783643.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/login",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		
+
+
+
+
+<h1 class="svelte-1399b0f"><a href="/maze/" class="svelte-1399b0f">Maze</a></h1>
+
+
+<form class="svelte-c5x1in"><label class="svelte-c5x1in">Username
+		<input type="text" name="login" class="svelte-c5x1in"></label>
+	<label class="svelte-c5x1in">Password
+		<input type="password" name="password" class="svelte-c5x1in"></label>
+	<input type="submit" value="Login" class="svelte-c5x1in">
+</form>
+
+
+
+			
+		
+	</body>
+</html>
