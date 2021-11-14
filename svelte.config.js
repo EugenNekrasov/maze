@@ -6,6 +6,9 @@ const config = {
 	preprocess: preprocess({}),
 	kit: {
 		target: 'body',
+		paths: {
+			base: '/maze',
+		},
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',

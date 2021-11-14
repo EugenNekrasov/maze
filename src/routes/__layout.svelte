@@ -1,5 +1,13 @@
+<script>
+	import { base } from "$app/paths";
+</script>
+
+<svelte:head>
+	<link rel="icon" href="{base}/favicon.png" />
+</svelte:head>
+
 <h1>
-	<a href="/">Maze</a>
+	<a href="{base}/">Maze</a>
 </h1>
 <slot />
 
